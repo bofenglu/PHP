@@ -3,11 +3,12 @@
   function hello ($x) {
      $sum = $x * 2;
      echo "函數執行結束 <br />";
+     return $sum;
   }
 ?>
 <p> -------------我是分隔線------------</P>
 <?php
-  Hello($x);
+  $sum = Hello($x);
   echo "x=$x<br />";
   echo "sum=$sum<br />";
   ?>

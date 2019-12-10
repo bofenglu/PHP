@@ -1,4 +1,7 @@
 <?php
       define('PI', 3.1415926);
-      echo "圓周率：".PI;
+
+      $circlearea = 3 * 3 * PI;      
+      echo "圓面積:".$circlearea;
+
 ?>
