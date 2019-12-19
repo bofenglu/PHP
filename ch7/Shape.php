@@ -19,5 +19,5 @@ $circle = new Shape();
 echo $circle->area(3);
 $rect = new Shape();
 echo $rect->area(8,6);
-echo Sharp::hello()[1];
+echo Shape::hello()[1];
 ?>
