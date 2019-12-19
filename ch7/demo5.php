@@ -27,4 +27,4 @@ $bird = new Bird();
 $action = new Action();
 $action->actionMove($dog);
 $action->actionMove($bird);
-?>
+?> 
